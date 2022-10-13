@@ -4,9 +4,7 @@ import java.util.Scanner;
 /* Определяет, является ли строка палиндромом */
 public class Palindrome {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String[] uargs = sc.nextLine().split(" ");
-        for (String s : uargs) {
+        for (String s : args) {
             if (isPalindrome(s)) {
                 System.out.printf("%s is palindrome\n", s);
             }
